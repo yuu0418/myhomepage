@@ -1,0 +1,99 @@
+/* ベーススタイル */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+/* ヘッダー */
+header {
+    position: relative; /* 擬似要素の位置を指定するために必要 */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 0;
+
+     /* 背景画像を設定 */
+     background-image: url('ribon_header.jpg'); /* 画像のパスを指定 */
+     background-size: contain; /* 画像を画面サイズに合わせて拡大縮小 */
+     /*background-position: center; /* 中央揃え */
+     background-attachment: fixed; /* ページをスクロールしても背景を固定 */
+
+}
+header::before {
+    content: ''; /* 擬似要素を描画 */
+    position: absolute; /* ヘッダー全体に広がるように指定 */
+    top: 0;
+    left: 0;
+    width: 100%; /* ヘッダーの幅いっぱいに */
+    height: 100%; /* ヘッダーの高さいっぱいに */
+    background-color: rgba(0, 0, 0, 0.2); /* 半透明の黒 */
+    z-index: 1; /* ヘッダーの前面に配置 */
+}
+
+
+header h1, header nav {
+    position: relative; /* 擬似要素の上に文字を表示するため */
+    z-index: 2; /* 擬似要素より前に表示 */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #f8f8f8;
+    text-decoration: none;
+}
+
+/* メインコンテンツ */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #f191b9;
+}
+
+/* フッター */
+footer {
+    position: absolute; /* 擬似要素の位置を指定するために必要 */
+    z-index: 0;
+    text-align: center;
+    padding: 1rem 0;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    
+
+    /* 背景画像を設定 */
+    background-image: url('ribon_footer.jpg'); /* 画像のパスを指定 */
+    background-size: contain; /* 画像を画面サイズに合わせて拡大縮小 */
+    background-position: center; /* 中央揃え */
+    background-attachment: fixed; /* ページをスクロールしても背景を固定 */
+}
+
+footer::before {
+    content: ''; /* 擬似要素を描画 */
+    position: absolute; /* ヘッダー全体に広がるように指定 */
+    top: 0;
+    left: 0;
+    width: 100%; /* ヘッダーの幅いっぱいに */
+    height: 100%; /* ヘッダーの高さいっぱいに */
+    background-color: rgba(0, 0, 0, 0.2); /* 半透明の黒 */
+    z-index: -1; /* ヘッダーの前面に配置 */
+}
