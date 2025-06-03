@@ -18,7 +18,7 @@ header {
     z-index: 0;
 
      /* 背景画像を設定 */
-     background-image: url('picture/ribon_header.jpg'); /* 画像のパスを指定 */
+     background-image: url('/picture/ribon_header.jpg'); /* 画像のパスを指定 */
      background-size: contain; /* 画像を画面サイズに合わせて拡大縮小 */
      /*background-position: center; /* 中央揃え */
      background-attachment: fixed; /* ページをスクロールしても背景を固定 */
@@ -81,7 +81,7 @@ footer {
     
 
     /* 背景画像を設定 */
-    background-image: url('picture/ribon_footer.jpg'); /* 画像のパスを指定 */
+    background-image: url('/picture/ribon_footer.jpg'); /* 画像のパスを指定 */
     background-size: contain; /* 画像を画面サイズに合わせて拡大縮小 */
     background-position: center; /* 中央揃え */
     background-attachment: fixed; /* ページをスクロールしても背景を固定 */
