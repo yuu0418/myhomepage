@@ -58,11 +58,15 @@ header nav ul li a {
 
 /* メインコンテンツ */
 main {
-    padding: 20px;
+    flex: 1; /* 残りの空間をすべて埋める */
+    display: flex;
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center; /* 垂直方向の中央揃え */
+    padding: 20px; /* 上下左右の余白 */
 }
 
 .profile {
-    background: white; /* 背景色を白に */
+    background: rgb(250, 207, 252); /* 背景色を白に */
     padding: 20px; /* 内側の余白 */
     width: 80%; /* 横幅を80%に */
     max-width: 400px; /* 最大幅を400pxに */
