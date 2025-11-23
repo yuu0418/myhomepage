@@ -85,7 +85,7 @@ h2 {
 
 /* フッター */
 footer {
-    /*position: absolute;*/ /* 擬似要素の位置を指定するために必要 */
+    position: absolute; /* 擬似要素の位置を指定するために必要 */
     z-index: 0;
     text-align: center;
     padding: 1rem 0;
