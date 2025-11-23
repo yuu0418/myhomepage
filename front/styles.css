@@ -65,7 +65,7 @@ main {
     padding: 20px; /* 上下左右の余白 */
 }
 
-.profile {
+.profile, .made, .sns {
     background: rgb(250, 207, 252); /* 背景色を白に */
     padding: 20px; /* 内側の余白 */
     width: 50%; /* 横幅を80%に */
@@ -73,6 +73,7 @@ main {
     border-radius: 10px; /* 角を丸く */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 影をつけて立体感を出す */
     text-align: left; /* テキストを左揃え */
+    z-index: 1;
 }
 
 section {
