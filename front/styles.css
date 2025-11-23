@@ -68,7 +68,7 @@ main {
 .profile {
     background: rgb(250, 207, 252); /* 背景色を白に */
     padding: 20px; /* 内側の余白 */
-    width: 80%; /* 横幅を80%に */
+    width: 50%; /* 横幅を80%に */
     max-width: 400px; /* 最大幅を400pxに */
     border-radius: 10px; /* 角を丸く */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 影をつけて立体感を出す */
@@ -85,12 +85,12 @@ h2 {
 
 /* フッター */
 footer {
-    position: absolute; /* 擬似要素の位置を指定するために必要 */
+    /*position: absolute;*/ /* 擬似要素の位置を指定するために必要 */
     z-index: 0;
     text-align: center;
     padding: 1rem 0;
     color: white;
-    bottom: 0;
+    /*bottom: 0;*/
     width: 100%;
     
 
