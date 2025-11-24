@@ -1,4 +1,4 @@
-/* ベーススタイル */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -7,6 +7,9 @@ body {
     height: 100%;
     color: #333;
     background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column; /* 縦方向のレイアウト */
+    align-items: center;/*なんかこれするとヘッダーだけ真ん中に寄る*/
 }
 
 /* ヘッダー */
@@ -65,7 +68,7 @@ main {
     padding: 20px; /* 上下左右の余白 */
 }
 
-.profile, .made, .sns {
+main {
     background: rgb(250, 207, 252); /* 背景色を白に */
     padding: 20px; /* 内側の余白 */
     width: 50%; /* 横幅を80%に */
