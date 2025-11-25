@@ -35,10 +35,29 @@ main {
     text-align: left; /* テキストを左揃え */
 }
 
+.made {
+    background: white; /* 背景色を白に */
+    padding: 20px; /* 内側の余白 */
+    width: 80%; /* 横幅を80%に */
+    max-width: 400px; /* 最大幅を400pxに */
+    border-radius: 10px; /* 角を丸く */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 影をつけて立体感を出す */
+    text-align: left; /* テキストを左揃え */
+}
+
+.sns {
+    background: white; /* 背景色を白に */
+    padding: 20px; /* 内側の余白 */
+    width: 80%; /* 横幅を80%に */
+    max-width: 400px; /* 最大幅を400pxに */
+    border-radius: 10px; /* 角を丸く */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 影をつけて立体感を出す */
+    text-align: left; /* テキストを左揃え */
+}
 
 /* セクションタイトル */
 h2 {
-    color: #f79fff; /* 水色系のアクセントカラー */
+    color: #8baee9; 
     font-size: 20px; /* 文字サイズ */
     margin-top: 15px; /* 上の余白 */
 }
