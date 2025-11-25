@@ -24,33 +24,46 @@ main {
     padding: 20px; /* 上下左右の余白 */
 }
 
+main a {
+    color: #333;
+    text-decoration: none;
+}
+
+.icon {
+    width: 100px; /* 幅100px */
+    height: 100px; /* 高さ100px */
+    object-fit: cover; /* 画像を適切にトリミング */
+    margin-bottom: 100px; /* 画像下に余白 */
+    justify-content: center; /* 水平方向の中央揃え */
+}
+
 /* プロフィールカードのデザイン */
 .profile {
     background: white; /* 背景色を白に */
-    padding: 20px; /* 内側の余白 */
+    padding: 40px; /* 内側の余白 */
     width: 80%; /* 横幅を80%に */
     max-width: 400px; /* 最大幅を400pxに */
-    border-radius: 10px; /* 角を丸く */
+    border-radius: 50px; /* 角を丸く */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 影をつけて立体感を出す */
     text-align: left; /* テキストを左揃え */
 }
 
 .made {
     background: white; /* 背景色を白に */
-    padding: 20px; /* 内側の余白 */
+    padding: 40px; /* 内側の余白 */
     width: 80%; /* 横幅を80%に */
     max-width: 400px; /* 最大幅を400pxに */
-    border-radius: 10px; /* 角を丸く */
+    border-radius: 50px; /* 角を丸く */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 影をつけて立体感を出す */
     text-align: left; /* テキストを左揃え */
 }
 
 .sns {
     background: white; /* 背景色を白に */
-    padding: 20px; /* 内側の余白 */
+    padding: 40px; /* 内側の余白 */
     width: 80%; /* 横幅を80%に */
     max-width: 400px; /* 最大幅を400pxに */
-    border-radius: 10px; /* 角を丸く */
+    border-radius: 5px; /* 角を丸く */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 影をつけて立体感を出す */
     text-align: left; /* テキストを左揃え */
 }
