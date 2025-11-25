@@ -10,6 +10,8 @@ body {
     display: flex;
     flex-direction: column; /* 縦方向のレイアウト */
     align-items: center;
+    background-image: url('/picture/star_body.jpg'); /* 画像のパスを指定 */
+     background-size: contain;
 }
 
 /* ヘッダー */
@@ -64,7 +66,7 @@ main {
     align-items: center; /* 垂直方向の中央揃え */
     justify-content: center; /* 水平方向の中央揃え */
     padding: 20px; /* 上下左右の余白 */
-    background: rgb(250, 207, 252); /* 背景色を白に */
+    background: rgb(212, 174, 192); /* 背景色を白に */
     width: 50%; /* 横幅を80%に */
     max-width: 400px; /* 最大幅を400pxに */
     border-radius: 10px; /* 角を丸く */
