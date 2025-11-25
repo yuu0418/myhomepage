@@ -31,10 +31,11 @@ main a {
 }
 
 .icon {
-    width: 100px; /* 幅100px */
-    height: 100px; /* 高さ100px */
+    width: 300px; /* 幅100px */
+    height: 300px; /* 高さ100px */
     object-fit: cover; /* 画像を適切にトリミング */
     margin-bottom: 100px; /* 画像下に余白 */
+    margin-top: 100px; 
     justify-content: center; /* 水平方向の中央揃え */
     
 }
@@ -48,7 +49,7 @@ main a {
     border-radius: 50px; /* 角を丸く */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 影をつけて立体感を出す */
     text-align: center; /* テキストを左揃え */
-    margin-bottom: 100px; 
+    margin-bottom: 50px; 
 }
 
 .made {
@@ -59,6 +60,7 @@ main a {
     border-radius: 50px; /* 角を丸く */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 影をつけて立体感を出す */
     text-align: center; /* テキストを左揃え */
+    margin-bottom: 50px; 
 }
 
 .sns {
@@ -69,6 +71,7 @@ main a {
     border-radius: 50px; /* 角を丸く */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 影をつけて立体感を出す */
     text-align: center; /* テキストを左揃え */
+    margin-bottom: 100px; 
 }
 
 /* セクションタイトル */
