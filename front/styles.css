@@ -4,7 +4,7 @@ html, body {
     margin: 0; /* 余白をなくす */
     font-family: 'Noto Sans JP', sans-serif; /* 日本語フォント */
     text-align: center; /* テキストを中央揃え */
-    background: linear-gradient(135deg, #ffd9f2, #ffb0dc); /* 水色系のグラデーション背景 */
+    background-image: url('/picture/star_body.jpg'); /* 水色系のグラデーション背景 */
     color: #333; /* 文字の基本色 */
 }
 
