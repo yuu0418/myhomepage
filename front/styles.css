@@ -10,8 +10,7 @@ body {
     display: flex;
     flex-direction: column; /* 縦方向のレイアウト */
     align-items: center;
-    background-image: url('/picture/star_body.jpg'); /* 画像のパスを指定 */
-     background-size: contain;
+    background-image: url('/picture/ririmu_body.jpg'); /* 画像のパスを指定 */
 }
 
 /* ヘッダー */
@@ -25,7 +24,6 @@ header {
 
      /* 背景画像を設定 */
      background-image: url('/picture/ribon_header.jpg'); /* 画像のパスを指定 */
-     background-size: contain; /* 画像を画面サイズに合わせて拡大縮小 */
      /*background-position: center; /* 中央揃え */
      background-attachment: fixed; /* ページをスクロールしても背景を固定 */
 
@@ -66,7 +64,7 @@ main {
     align-items: center; /* 垂直方向の中央揃え */
     justify-content: center; /* 水平方向の中央揃え */
     padding: 20px; /* 上下左右の余白 */
-    background: rgb(212, 174, 192); /* 背景色を白に */
+    background: rgb(245, 228, 236); /* 背景色を白に */
     width: 50%; /* 横幅を80%に */
     max-width: 400px; /* 最大幅を400pxに */
     border-radius: 10px; /* 角を丸く */
@@ -80,7 +78,7 @@ section {
 }
 
 h2 {
-    color: #f191b9;
+    color: #c2658b;
 }
 
 /* フッター */
@@ -96,7 +94,6 @@ footer {
 
     /* 背景画像を設定 */
     background-image: url('/picture/ribon_footer.jpg'); /* 画像のパスを指定 */
-    background-size: contain; /* 画像を画面サイズに合わせて拡大縮小 */
     background-position: center; /* 中央揃え */
     background-attachment: fixed; /* ページをスクロールしても背景を固定 */
 }
