@@ -31,10 +31,9 @@ main a {
 }
 
 .icon {
-    width: 300px; /* 幅100px */
-    height: 300px; /* 高さ100px */
+    width: 500px; /* 幅100px */
+    height: 500px; /* 高さ100px */
     object-fit: cover; /* 画像を適切にトリミング */
-    margin-bottom: 100px; /* 画像下に余白 */
     margin-top: 100px; 
     justify-content: center; /* 水平方向の中央揃え */
     
