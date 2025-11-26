@@ -30,14 +30,6 @@ main a {
     text-decoration: none;
 }
 
-.icon {
-    width: 500px; /* 幅100px */
-    height: 500px; /* 高さ100px */
-    object-fit: cover; /* 画像を適切にトリミング */
-    margin-top: 100px; 
-    justify-content: center; /* 水平方向の中央揃え */
-    
-}
 
 /* プロフィールカードのデザイン */
 .profile {
